@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+
+.header {
+    height:50px;
+    width: 100%;
+    background-color: #f87171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    width:275px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    gap:8px;
+}
+
+.tab-link {
+    height:100%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #fee2e2;
+    border: 2px solid #dc2626;
+
+
+}
+
+
+.body {
+    height: 100%;
+    width: 100%;
+    background-image: url('./applesMatheusCenali.jpg');
+    background-size: cover;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+    height: 100%;
+    width: 60%;
+    min-width: 200px;
+    max-width: 800px;
+    background-color: #f87171;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 400;
+    max-width: 95%;
+
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #f87171;
+
+}
