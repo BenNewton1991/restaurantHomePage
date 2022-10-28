@@ -1,6 +1,8 @@
+
 /* Function for base layout */
 
 const layout = function () {
+
 
 
     const content = document.createElement('div');

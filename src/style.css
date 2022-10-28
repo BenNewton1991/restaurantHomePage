@@ -122,6 +122,43 @@
     width:250px;
     height:250px;
     border: 1px solid #dc2626;
+    display: flex;
+    align-content: flex-end;
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.isolatedAppleImage {
+    background-image: url('./images/isolatedAppleBenjaminWong.jpg'
+    );
+}
+.goodEatsImage {
+    background-image: url('./images/goodEats.jpg'
+    );
+}
+.appleBananaImage {
+    background-image: url('./images/appleBananaphongNguyen.jpg'
+    );
+}
+.multiAppleImage {
+    background-image: url('./images/multiApplerebeccaHansen.jpg'
+    );
+}
+
+.imageTextContainer{
+    background-color: rgba(000,000,000,0.6);
+    width: 100%;
+    height:30px;
+    
+   
+}
+
+
+.imageText {
+    font-size: 1.2em;
+    color: white;
+
 }
 
 .homeImage {
@@ -136,6 +173,8 @@
     
     
 }
+
+
 
 .contentLargeText {
     max-width: 95%;
