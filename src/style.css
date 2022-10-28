@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 100vh;
     width: 100%;
+    height:100%;
 }
 
 #content {
@@ -62,24 +62,112 @@
 .content {
     height: 100%;
     width: 60%;
-    min-width: 200px;
+    min-width: 250px;
     max-width: 800px;
     background-color: #f87171;
     border-radius: 25px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: scroll;
+
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.home, .contact {
+    max-height: 95%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 150px 100px 100px 100px;
+    gap:8px
+  
+
+   
+
+}
+
+.menuUpper {
+    max-height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+    gap:8px;
+
+    
+}
+
+.menu > * {
+    height: 250px;
+    width: 250px;
+}
+
+.menuImage {
+    width:250px;
+    height:250px;
+    border: 1px solid #dc2626;
+}
+
+.homeImage {
+    min-width: 180px;
+    max-width: 300px;
+    justify-self: center;
+    width: 80%;
+    height: 300px;
+    background-image: url('./abhishekHajareAppleCocktail.jpg'
+    );
+    border-radius: 5px;
+    
+    
+}
+
+.contentLargeText {
+    max-width: 95%;
+    font-size: 1.5em;
+    color: white;
+    padding: 0px;
+
+}
+
+.map {
+
+    justify-self: center;
+    width: 80%;
+    height:300px;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+.contentSmallText {
+    max-width: 95%;
+    font-size: 1.2em;
+    color: white;
 
 }
 
 .title {
     font-size: 2.5em;
+    color: white;
     font-weight: 400;
+    height:100px;
     max-width: 95%;
+    padding: 0px;
 
 }
 

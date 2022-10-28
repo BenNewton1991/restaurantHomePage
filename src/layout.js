@@ -1,4 +1,3 @@
-import { chooseContent } from "./control";
 /* Function for base layout */
 
 const layout = function () {

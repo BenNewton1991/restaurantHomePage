@@ -1,9 +1,9 @@
 import './style.css';
 import layout from './layout.js'
 import {home} from './home.js'
-import { chooseContent } from './control.js';
 import {contact} from './contact.js'
 import {menu} from './menu.js'
+import cocktail from './abhishekHajareAppleCocktail.jpg'
 
 
 
